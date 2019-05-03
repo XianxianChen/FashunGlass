@@ -21,8 +21,9 @@ class MenuTabController: UITabBarController {
 //        } else {
 //            
 //        }
-        let welcomeVC = FeatureBuilder.
-        self.viewControllers  =
+        let welcomeVC = FeatureBuilder.shared.buildWelcomeViewController()
+        self.viewControllers  = [welcomeVC]
+        
     }
     
 

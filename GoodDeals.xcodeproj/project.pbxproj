@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069DFC5767B2DFB2ADD4403D /* Pods_GoodDeals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC5F17F68058B0877047C27 /* Pods_GoodDeals.framework */; };
+		40B89AD2E157CBCFE4876A33 /* Pods_GoodDealsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1677187245029A601124A3C7 /* Pods_GoodDealsUITests.framework */; };
 		811A55E7227B843F00C47802 /* FeatureBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A55E6227B843F00C47802 /* FeatureBuilder.swift */; };
 		811A55EB227B861800C47802 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A55EA227B861800C47802 /* FeedViewController.swift */; };
 		811A55EE227B8A5600C47802 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811A55ED227B8A5600C47802 /* Feed.storyboard */; };
 		811A55F0227B8AAC00C47802 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A55EF227B8AAC00C47802 /* WelcomeViewController.swift */; };
 		811A55F5227B8C4400C47802 /* StringKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A55F4227B8C4400C47802 /* StringKeys.swift */; };
 		811A55F7227B8D6C00C47802 /* MenuTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A55F6227B8D6C00C47802 /* MenuTabController.swift */; };
+		811A55F9227B9E8F00C47802 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A55F8227B9E8F00C47802 /* CartViewController.swift */; };
 		818ABA2022093E49005A5DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ABA1F22093E49005A5DB6 /* AppDelegate.swift */; };
 		818ABA2522093E49005A5DB6 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818ABA2322093E49005A5DB6 /* Welcome.storyboard */; };
 		818ABA2822093E49005A5DB6 /* GoodDeals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 818ABA2622093E49005A5DB6 /* GoodDeals.xcdatamodeld */; };
@@ -20,6 +23,7 @@
 		818ABA2D22093E4C005A5DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818ABA2B22093E4C005A5DB6 /* LaunchScreen.storyboard */; };
 		818ABA3822093E4C005A5DB6 /* GoodDealsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ABA3722093E4C005A5DB6 /* GoodDealsTests.swift */; };
 		818ABA4322093E4C005A5DB6 /* GoodDealsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818ABA4222093E4C005A5DB6 /* GoodDealsUITests.swift */; };
+		B5C5FD553927830677955ABD /* Pods_GoodDealsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F473AD4828A9DA864BD71D /* Pods_GoodDealsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1677187245029A601124A3C7 /* Pods_GoodDealsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodDealsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AA1482BE8D9FC59B634B33 /* Pods-GoodDealsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDealsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDealsTests/Pods-GoodDealsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC5F17F68058B0877047C27 /* Pods_GoodDeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodDeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC5D2653145B32775569C24 /* Pods-GoodDealsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDealsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDealsUITests/Pods-GoodDealsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D34092E7B9159EA80C04A51 /* Pods-GoodDealsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDealsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDealsTests/Pods-GoodDealsTests.release.xcconfig"; sourceTree = "<group>"; };
+		64EA91F8A2576E3568334D22 /* Pods-GoodDeals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDeals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDeals/Pods-GoodDeals.debug.xcconfig"; sourceTree = "<group>"; };
 		811A55E6227B843F00C47802 /* FeatureBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureBuilder.swift; sourceTree = "<group>"; };
 		811A55EA227B861800C47802 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		811A55ED227B8A5600C47802 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		811A55EF227B8AAC00C47802 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		811A55F4227B8C4400C47802 /* StringKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringKeys.swift; sourceTree = "<group>"; };
 		811A55F6227B8D6C00C47802 /* MenuTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabController.swift; sourceTree = "<group>"; };
+		811A55F8227B9E8F00C47802 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		818ABA1C22093E49005A5DB6 /* GoodDeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818ABA1F22093E49005A5DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		818ABA2422093E49005A5DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Welcome.storyboard; sourceTree = "<group>"; };
@@ -59,6 +70,9 @@
 		818ABA3E22093E4C005A5DB6 /* GoodDealsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodDealsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		818ABA4222093E4C005A5DB6 /* GoodDealsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDealsUITests.swift; sourceTree = "<group>"; };
 		818ABA4422093E4C005A5DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9699733FF6459EE022F4B496 /* Pods-GoodDealsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDealsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDealsUITests/Pods-GoodDealsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4517D0564ECE765B60426B7 /* Pods-GoodDeals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodDeals.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodDeals/Pods-GoodDeals.release.xcconfig"; sourceTree = "<group>"; };
+		E7F473AD4828A9DA864BD71D /* Pods_GoodDealsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodDealsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069DFC5767B2DFB2ADD4403D /* Pods_GoodDeals.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C5FD553927830677955ABD /* Pods_GoodDealsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,15 +96,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B89AD2E157CBCFE4876A33 /* Pods_GoodDealsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6691A1A620E92294E52527C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BC5F17F68058B0877047C27 /* Pods_GoodDeals.framework */,
+				E7F473AD4828A9DA864BD71D /* Pods_GoodDealsTests.framework */,
+				1677187245029A601124A3C7 /* Pods_GoodDealsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		811A55E5227B7E7400C47802 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				811A55F6227B8D6C00C47802 /* MenuTabController.swift */,
 				818ABA1F22093E49005A5DB6 /* AppDelegate.swift */,
 				818ABA2922093E4C005A5DB6 /* Assets.xcassets */,
 				818ABA2B22093E4C005A5DB6 /* LaunchScreen.storyboard */,
@@ -109,7 +137,6 @@
 			children = (
 				818ABA2322093E49005A5DB6 /* Welcome.storyboard */,
 				811A55EF227B8AAC00C47802 /* WelcomeViewController.swift */,
-				811A55F6227B8D6C00C47802 /* MenuTabController.swift */,
 			);
 			path = "Welcome ";
 			sourceTree = "<group>";
@@ -131,6 +158,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		811A55FA227B9E9700C47802 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				811A55F8227B9E8F00C47802 /* CartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
 		818ABA1322093E48005A5DB6 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +173,8 @@
 				818ABA3622093E4C005A5DB6 /* GoodDealsTests */,
 				818ABA4122093E4C005A5DB6 /* GoodDealsUITests */,
 				818ABA1D22093E49005A5DB6 /* Products */,
+				A4B8BA267C4A6054EC659994 /* Pods */,
+				6691A1A620E92294E52527C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +194,7 @@
 				811A55E5227B7E7400C47802 /* SupportingFiles */,
 				811A55F1227B8ABF00C47802 /* Welcome  */,
 				811A55F2227B8AEA00C47802 /* Feed */,
+				811A55FA227B9E9700C47802 /* Cart */,
 				811A55F3227B8B1A00C47802 /* Model */,
 				811A55EC227B88ED00C47802 /* Dependancy Injection */,
 				818ABA2622093E49005A5DB6 /* GoodDeals.xcdatamodeld */,
@@ -183,6 +221,19 @@
 			path = GoodDealsUITests;
 			sourceTree = "<group>";
 		};
+		A4B8BA267C4A6054EC659994 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64EA91F8A2576E3568334D22 /* Pods-GoodDeals.debug.xcconfig */,
+				A4517D0564ECE765B60426B7 /* Pods-GoodDeals.release.xcconfig */,
+				40AA1482BE8D9FC59B634B33 /* Pods-GoodDealsTests.debug.xcconfig */,
+				5D34092E7B9159EA80C04A51 /* Pods-GoodDealsTests.release.xcconfig */,
+				5CC5D2653145B32775569C24 /* Pods-GoodDealsUITests.debug.xcconfig */,
+				9699733FF6459EE022F4B496 /* Pods-GoodDealsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 818ABA4722093E4C005A5DB6 /* Build configuration list for PBXNativeTarget "GoodDeals" */;
 			buildPhases = (
+				3D78F46B7DB7D9C973A9250F /* [CP] Check Pods Manifest.lock */,
 				818ABA1822093E48005A5DB6 /* Sources */,
 				818ABA1922093E48005A5DB6 /* Frameworks */,
 				818ABA1A22093E48005A5DB6 /* Resources */,
+				3D2F00B80F169310CC38848A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 818ABA4A22093E4C005A5DB6 /* Build configuration list for PBXNativeTarget "GoodDealsTests" */;
 			buildPhases = (
+				717A1048A2FF01690A77D8C1 /* [CP] Check Pods Manifest.lock */,
 				818ABA2F22093E4C005A5DB6 /* Sources */,
 				818ABA3022093E4C005A5DB6 /* Frameworks */,
 				818ABA3122093E4C005A5DB6 /* Resources */,
@@ -225,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 818ABA4D22093E4C005A5DB6 /* Build configuration list for PBXNativeTarget "GoodDealsUITests" */;
 			buildPhases = (
+				FF4515926235FE9B96D13907 /* [CP] Check Pods Manifest.lock */,
 				818ABA3A22093E4C005A5DB6 /* Sources */,
 				818ABA3B22093E4C005A5DB6 /* Frameworks */,
 				818ABA3C22093E4C005A5DB6 /* Resources */,
@@ -310,6 +365,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D2F00B80F169310CC38848A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeals/Pods-GoodDeals-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Moltin/moltin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/moltin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodDeals/Pods-GoodDeals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D78F46B7DB7D9C973A9250F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodDeals-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717A1048A2FF01690A77D8C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodDealsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4515926235FE9B96D13907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodDealsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		818ABA1822093E48005A5DB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -319,6 +449,7 @@
 				811A55F7227B8D6C00C47802 /* MenuTabController.swift in Sources */,
 				811A55E7227B843F00C47802 /* FeatureBuilder.swift in Sources */,
 				811A55EB227B861800C47802 /* FeedViewController.swift in Sources */,
+				811A55F9227B9E8F00C47802 /* CartViewController.swift in Sources */,
 				818ABA2022093E49005A5DB6 /* AppDelegate.swift in Sources */,
 				811A55F5227B8C4400C47802 /* StringKeys.swift in Sources */,
 				811A55F0227B8AAC00C47802 /* WelcomeViewController.swift in Sources */,
@@ -494,6 +625,7 @@
 		};
 		818ABA4822093E4C005A5DB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EA91F8A2576E3568334D22 /* Pods-GoodDeals.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +643,7 @@
 		};
 		818ABA4922093E4C005A5DB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4517D0564ECE765B60426B7 /* Pods-GoodDeals.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +661,7 @@
 		};
 		818ABA4B22093E4C005A5DB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AA1482BE8D9FC59B634B33 /* Pods-GoodDealsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -548,6 +682,7 @@
 		};
 		818ABA4C22093E4C005A5DB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D34092E7B9159EA80C04A51 /* Pods-GoodDealsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -568,6 +703,7 @@
 		};
 		818ABA4E22093E4C005A5DB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC5D2653145B32775569C24 /* Pods-GoodDealsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +723,7 @@
 		};
 		818ABA4F22093E4C005A5DB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9699733FF6459EE022F4B496 /* Pods-GoodDealsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

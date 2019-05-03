@@ -14,6 +14,8 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.tabBarItem = UITabBarItem(title: "Welcome", image: nil, selectedImage: nil)
+        self.view.backgroundColor = .red
     }
     
 

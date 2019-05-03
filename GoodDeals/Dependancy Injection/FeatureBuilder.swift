@@ -9,7 +9,8 @@
 import UIKit
 
 final class FeatureBuilder {
-    init() {
+    static let shared = FeatureBuilder()
+   private init() {
         
     }
     func buildWelcomeViewController() -> UIViewController {
@@ -22,13 +23,13 @@ final class FeatureBuilder {
 //    func buildFeedViewController() -> UIViewController {
 //        //let feedVC = UIStoryboard(name: "", bundle: <#T##Bundle?#>)
 //    }
-//    
+//
 //    func buildAccountViewController() -> UIViewController {
-//        
+//
 //    }
-//    
+//
 //    func buildFavoriateViewController() -> UIViewController {
-//        
+//
 //    }
     
 }
